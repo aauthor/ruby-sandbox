@@ -14,4 +14,5 @@ class Bar < Foo
   end
 end
 
-Bar.new.pcon
+Bar.new.pcon # => :foo
+             # => :bar
